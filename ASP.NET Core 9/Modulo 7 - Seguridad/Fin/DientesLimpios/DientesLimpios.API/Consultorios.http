@@ -1,0 +1,34 @@
+@DientesLimpios.API_HostAddress = https://localhost:7202/api/consultorios
+
+GET {{DientesLimpios.API_HostAddress}}/01987594-0729-768A-B816-DEFEA2A4C667
+Accept: application/json
+Authorization: Bearer CfDJ8B2FNuSB7-1Nkwtyi2w_snChrQ9Ftl6i1VmrEFchDRBE5RX00jV5Ckop9z_mfaNxT2iHzkGldC3oUuzEbbwJEYcyigjcQzB43PqbMBBX1s6BZrsYbNw_8oV7SqXcNTgaijQ4hua8UUcuwR7W5XjFE4vTRLcMy8-usAaVbiDdR9jh4ES9dMWVfpwZ7CpAJcWj4HrX0_gVgHEYHoZuniMID5ZK3_9YcqEhWcyekmSVyzS5T_q3a9wFNh7YPouQBJqt0S2vtr1AgZdePylKEzLtOXcxYaEH7yomI8P1ONEa5qn8ytDJ_yPp7SqH_fPJMtwQCYYJgmwLsOIUMt8DQ_i6xe9iSi6omo7olSjLC52l2rvucuzSrkYMgZxuClIwh5JcVTasxCO-_gFEVUrb960cHkGH4NjwWAwyJakqd0HaoHxMOYt0KwUu-N9Bn9n0nu7EivvzF5Yv4MA521I4jx9hW09TT0ZjX87j0W6MxxlkrBTe4dAzvQQS1YD77akNEV_fQolJ1Jtc2lH2Gg9FHu-q_3wlXtJX3Mw0R1IwOa9pyFS1n2QHi-64pDg3CXACvGx8NPPhIJgE0nlN5lWUtdkNadJ7CiZ-INLLrAN_hZS3VGJOHgC5v2VSg2geuRQHzcU1cdi01zZ822omVSt3pyZQUSvS6vwkwZY1YaJ0rrqyqg7gbJzsvyLwoEB6p-KynYlhWlgwyJjyup6-Le0q3pL61h6qNTPrJeNZ4KazoOqI_DZ0
+
+###
+
+GET {{DientesLimpios.API_HostAddress}}
+Accept: application/json
+Authorization: Bearer CfDJ8B2FNuSB7-1Nkwtyi2w_snACD8TUUiaFXzxVKDm-kdDyjHWn1soyI8bRGoyCV3RDla2mJMpJX5XGc7MhNcbI-KpZTYzFpzC8ANjUma_RWoAyoAA46pyVqJDtXovLnnrY8jS3qQk0lxwdRw6HLE-2v7V7hgHJP4BWt4-UmfcbbeobhhzP7rrHll9ESIbhZI8XTi74J4kGa3Rqk4UVjBvORyVq7VA9Guf013OneHvK-Pm54QcrY7PgOtijYJsTNdda_8PgYkhhPqd9KFVz_-Nu6HaI-SUSDdk4zUVNfIba0O9_yzXZw4MT1GqSWPEir3mqC6bOJsXh3g2aNkiapdy9z-kNhQt5C8jwUGHDAhJD02NS-vLAOWCgA6nBr52hYIE_AcvwzWPqZMoRf7g_SoRBVIqydBAQYYtoZhJJgg-Erjj4nQUhCp6-hEIh4hXsxFPjM6W-yHc2m3nlRVF5gF61E0QABNScdXVvOfHeCW2_y2nyr3kp8Jmm82SFD7XUy4X3Fh5JrUo5GKZj7aSrV4qR-DVU2A0IAobtuLtTFBKJ2N0bYKdgysTOC0lFAtVR32ocR-PMuG80yIjhesoE6SzMThWrqkIF-foX1zreA-7Q0szu6kHhVog97FafHzlTgQZPCbgm53xSu3u3Gxh0Y83mHRZq0olAyBaJEW9jbkkCKGCFHX0Y4nembUTMgKyoNhjhH_OKQ6d0Ib-Oxyk3xkKrdeA
+
+###
+
+POST {{DientesLimpios.API_HostAddress}}
+Content-Type: application/json
+
+{
+  "nombre": "Consultorio B"
+}
+
+###
+
+PUT {{DientesLimpios.API_HostAddress}}/01988492-0a91-7940-b9e3-2a7f4a59b81e
+Content-Type: application/json
+
+{
+  "nombre": "Consultorio B - Actualizado"
+}
+
+###
+
+DELETE {{DientesLimpios.API_HostAddress}}/01988492-0a91-7940-b9e3-2a7f4a59b81e
+Accept: application/json

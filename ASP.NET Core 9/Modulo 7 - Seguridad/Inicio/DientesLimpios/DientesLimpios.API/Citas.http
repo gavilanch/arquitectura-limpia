@@ -1,0 +1,32 @@
+@DientesLimpios.API_HostAddress = http://localhost:5175/api/citas
+
+GET {{DientesLimpios.API_HostAddress}}/019886CB-10AF-7C21-84A3-632C90718421
+Accept: application/json
+
+###
+
+GET {{DientesLimpios.API_HostAddress}}
+Accept: application/json
+
+###
+
+POST {{DientesLimpios.API_HostAddress}}
+Content-Type: application/json
+
+{
+  "pacienteId": "019885d7-9f95-7a4e-9363-1b2ca1a9b45a",
+  "dentistaId": "019886b1-0cda-7098-b307-fa94a5431a8b",
+  "consultorioId": "019886f5-503c-7003-bf41-658d1b5220fc",
+  "fechaInicio": "2025-08-09T09:30:00",
+  "fechaFin": "2025-08-09T09:45:00"
+}
+
+###
+
+POST {{DientesLimpios.API_HostAddress}}/019886CB-F596-7452-B6BC-AA18B833CD34/completar
+Accept: application/json
+
+###
+
+POST {{DientesLimpios.API_HostAddress}}/019886CB-F596-7452-B6BC-AA18B833CD34/cancelar
+Accept: application/json

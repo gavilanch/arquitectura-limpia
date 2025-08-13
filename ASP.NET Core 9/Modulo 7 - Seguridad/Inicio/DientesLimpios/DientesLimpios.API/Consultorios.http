@@ -1,0 +1,32 @@
+@DientesLimpios.API_HostAddress = http://localhost:5175/api/consultorios
+
+GET {{DientesLimpios.API_HostAddress}}/01987594-0729-768A-B816-DEFEA2A4C667
+Accept: application/json
+
+###
+
+GET {{DientesLimpios.API_HostAddress}}
+Accept: application/json
+
+###
+
+POST {{DientesLimpios.API_HostAddress}}
+Content-Type: application/json
+
+{
+  "nombre": "Consultorio B"
+}
+
+###
+
+PUT {{DientesLimpios.API_HostAddress}}/01988492-0a91-7940-b9e3-2a7f4a59b81e
+Content-Type: application/json
+
+{
+  "nombre": "Consultorio B - Actualizado"
+}
+
+###
+
+DELETE {{DientesLimpios.API_HostAddress}}/01988492-0a91-7940-b9e3-2a7f4a59b81e
+Accept: application/json
